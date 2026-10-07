@@ -1,0 +1,12 @@
+[package]
+name = "urng_splitmix"
+version = "0.1.0"
+edition = "2024"
+repository = "https://github.com/cet-t/urng_splitmix"
+description = "SplitMix for urng_core"
+license = "MIT OR Apache-2.0"
+keywords = ["random", "rng", "splitmix"]
+readme = "crates-readme.md"
+
+[dependencies]
+urng_core = "0.1"
