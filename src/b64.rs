@@ -2,7 +2,7 @@ const STEP: u64 = 0x9E37_79B9_7F4A_7C15;
 const A: u64 = 0xBF58_476D_1CE4_E5B9;
 const B: u64 = 0x94D0_49BB_1331_11EB;
 
-/// A 32-bit SplitMix generator, primarily intended for seed generation.
+/// A 64-bit SplitMix generator, primarily intended for seed generation.
 #[derive(Debug, Clone, Copy)]
 pub struct SplitMix64 {
     state: u64,
